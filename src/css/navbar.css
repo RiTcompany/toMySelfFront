@@ -1,0 +1,75 @@
+
+.navbar-toggle{
+    display: none;
+}
+.menu-hamburger.open {
+    display: none;
+}
+
+.navbar-close{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+.button-close{
+    background-color: hsl(179, 93%, 44%);
+    color: white;
+    margin: 1rem;
+    padding: 0rem 1rem 0.7rem 1rem;
+    border-radius: 0.2rem;
+}
+.prof-button{
+    margin-top: 5rem;
+}
+.togglle-profile{
+    font-size: 1.5rem;
+}
+.togglle-profile2{
+    font-size: 1.5rem;
+}
+
+@media (max-width: 47.937rem) {
+.navbar-toggle {
+    position: fixed;
+    display: none; 
+    width: 96%; /* Ширина навбара */
+    background-color: #333;
+    border-radius: 1rem;
+    top: 2%;
+    left: 2%;
+    height: 96%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 10000;
+  }
+.nav-id{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+.navbar-close{
+    width: 100%;
+}
+
+.nav-id.open{
+    display: flex;
+}
+#toggle{
+    display: none;
+}
+
+#toggle.open{
+    display: block;  
+}
+
+.navbar-toggle.open {
+    display: block; /* Отображаем навбар при нажатии на кнопку-гамбургер */
+  }
+
+.menu-hamburger.open {
+    display: none !important;
+}
+}

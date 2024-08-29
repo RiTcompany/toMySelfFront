@@ -1,0 +1,18 @@
+.faq-svg{
+    color: hsl(0, 0%, 78%);
+    padding-left: 2rem;
+}
+
+.main-link-to{
+    text-decoration: none;
+    color: hsl(0, 0%, 78%);
+}
+
+.main-link-to:hover{
+color: white;
+}
+
+.faq-head-text{
+    color: white;
+    font-size: 3rem;
+}

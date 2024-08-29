@@ -1,0 +1,36 @@
+.results-section{
+margin: 2rem 1rem ;
+background-color: hsl(217, 10%, 25%);
+padding: 1.5rem 2.5rem 2rem;
+border-radius: 1rem;
+}
+
+.button-form{
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about-test{
+    color: white;
+}
+#about-test-button{
+    padding: 0.7rem 1.4rem;
+}
+#about-test-button-group{
+    margin-top: 2rem;
+}
+
+#faq2{
+    padding: 0;
+    margin-top: 4rem;
+}
+
+#test-finale-results{
+    margin-top: -3rem;
+}
+
+.more-ifo{
+    color: hsl(179, 93%, 44%);
+    cursor: pointer;
+}

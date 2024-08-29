@@ -1,0 +1,31 @@
+.contact-cont{
+    margin-top: 10rem;
+}
+@media (max-width: 47.937rem) {
+    .contact-cont{
+        margin-top: -7rem;
+    }
+}
+.cont-text{
+    display: flex;
+}
+.cont-svg{
+    margin-left: 1rem
+}
+
+.contact-head-text{
+    text-transform: uppercase;
+    color: white;
+    font-size: 3rem;
+}
+.description-section-contact{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.text-description-contact{
+ 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+
+}

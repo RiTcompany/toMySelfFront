@@ -1,0 +1,62 @@
+.form-container-login {
+    padding: 20px; 
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    
+    
+    
+  }
+  .form-red-user{
+   width: 400px;
+  }
+
+  @media (max-width: 47.937rem) {
+    .form-container-login {
+      margin-top: 3rem;
+    }
+    .form-red-user{
+      width: 250px;
+     }
+  }
+
+.button{
+    width: 100%;
+    border-radius: 25px;
+  }
+
+
+  .navbar-links{
+    color: var(--white);
+    font-size: rem(16);
+    font-weight: 600;
+    letter-spacing: rem(2);
+    display: inline-block;
+  }
+  .navbar-links::after{
+        content: '';
+        display: block;
+        width: 0px;
+        height: rem(2);
+        color: var(--primarycolor);
+        transition: all 350ms;
+        border-radius: rem(5);
+    }
+
+  .navbar-links:hover{
+        color: var(--primarycolor);
+        
+    }
+  
+.login:focus{
+  box-shadow: none;
+}
+
+.error-message{
+  color: rgb(255, 50, 50);
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
